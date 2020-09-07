@@ -9,13 +9,26 @@
 </head>
 
 <body>
-    <h1>Task Timeline</h1>
+    <h1 id="heading">Task Timeline</h1>
     <p id="date"></p>
-    <ul>
+    <ul id="demo">
         <li class="list">Edit the head</li>
         <li class="list">Edit the body</li>
         <li>Link to JavaScript</li>
     </ul>
+
+    <button type="button" onclick="hide()">
+        Hide Tasks
+    </button>
+    
+    <button type="button" onclick="show()">
+        Show Tasks
+    </button>
+    <p>
+        <button type="button" onclick="printp()">
+            Print Task-list
+        </button>
+    </p>
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view full site.</noscript>
 </body>
